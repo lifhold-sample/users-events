@@ -13,6 +13,9 @@
     },
     "require": {
         "illuminate/queue": "~7.0 || ~8.0",
-        "illuminate/events": "~7.0 || ~8.0"
-    }
+        "illuminate/events": "~7.0 || ~8.0",
+        "lifhold-sample/users-contracts": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
