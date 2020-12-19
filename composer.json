@@ -1,0 +1,18 @@
+{
+    "name": "lifhold-sample/users-events",
+    "authors": [
+        {
+            "name": "Lukasz Grajewski",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lifhold\\Users\\Events\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/queue": "~7.0 || ~8.0",
+        "illuminate/events": "~7.0 || ~8.0"
+    }
+}
